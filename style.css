@@ -107,6 +107,6 @@ h1{
       margin-top: 145px;
     }
     body{
-      overflow-x: scroll;
+      overflow: auto;
     }
   }

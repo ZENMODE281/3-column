@@ -87,7 +87,6 @@ h1{
   @media only screen and (max-width: 900px) {
    .main {
       display: flex;
-      overflow-x: scroll;
       flex-wrap: wrap;
       width: 80vw;
       margin-top: -250px;
@@ -107,5 +106,7 @@ h1{
     .button1, .button2, .button3{
       margin-top: 145px;
     }
-
+    body{
+      overflow-y: scroll;
+    }
   }
